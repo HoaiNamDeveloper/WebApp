@@ -79,3 +79,5 @@ C:\Users\Admin\Desktop\WebApp\WebApp\obj\Debug\WebApp.dll
 C:\Users\Admin\Desktop\WebApp\WebApp\obj\Debug\WebApp.pdb
 C:\Users\quock\Desktop\WebApp\WebApp\obj\Debug\WebApp.dll
 C:\Users\quock\Desktop\WebApp\WebApp\obj\Debug\WebApp.pdb
+C:\Users\quock\Desktop\New folder\WebApp\WebApp\obj\Debug\WebApp.dll
+C:\Users\quock\Desktop\New folder\WebApp\WebApp\obj\Debug\WebApp.pdb

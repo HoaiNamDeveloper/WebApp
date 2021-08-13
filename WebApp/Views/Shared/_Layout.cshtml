@@ -8,6 +8,10 @@
     @Scripts.Render("~/bundles/modernizr")
     <link href="~/fonts/fontawesome/css/all.css" rel="stylesheet" />
     <link href="~/Content/StyleLayout.css" rel="stylesheet" />
+    <link href="~/olwcarousel/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/olwcarousel/css/owl.theme.default.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="~/olwcarousel/js/owl.carousel.min.js"></script>
 </head>
 <body>
     <div class="app">
@@ -151,10 +155,102 @@
         </nav>
         
         @RenderBody()
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"id="footer-item">
+                        <ul>
+                            <li class="footer-title">
+                                <img src="~/img/logo.jpg" alt="Alternate Text" width="50" height="55" />
+                                <h5 >CÔNG TY TNHH KIẾN TRÚC NỘI THẤT KIẾN TƯỜNG CONCEPT</h5>
+                            </li>
+                            <li>
+                                
+                                <p><i class="fas fa-map-marker-alt"></i>276/31/73 Thống Nhất , Phường 16, Q. Gò Vấp, TP.HCM</p>
+                            </li>
+                            <li>
+                                
+                                <p><i class="fas fa-phone-alt"></i>0123456789</p>
+                            </li>
+                            <li>
+                                
+                                <p><i class="fas fa-envelope-open-text"></i>phanquockhanh9196@@gmail.com</p>
+                            </li>
+                            <li>
+                                
+                                <p><i class="fas fa-globe"></i> ktconcept.vn</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2"id="footer-item">
+                        <ul>
+                            <li>
+                                <h5>CHÍNH SÁCH</h5>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-arrow-right"></i>Chính sách bảo mật</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-arrow-right"></i>Chính sách thanh toán</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-arrow-right"></i>Chính sách bảo hành, bảo trì</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-arrow-right"></i>Hỗ trợ khách hàng</a>
+                            </li>
+                            <li>
+                                <img id="img-bct" src="~/img/bo-cong-thuong-1170x780.jpg" alt="Alternate Text" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2"id="footer-item">
+                        <ul>
+                            <li>
+                                <h5>DANH MỤC</h5>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-arrow-right"></i>Kiến trúc</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-arrow-right"></i>Nội thất</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-arrow-right"></i>Xây dựng</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-arrow-right"></i>Xem phong thủy</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-arrow-right"></i>Tin tức</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-arrow-right"></i>Liên hiện</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4"id="">
+
+                    </div>
+                </div>
+                <hr />
+                <div class="footer-bottom">
+                    <div class="footer-bottom-item">
+                        <p>Copyright © 2016 Design by <b>KIEN TUONG CONCEPT</b></p>
+                    </div>
+                    <div class="footer-bottom-item">
+                        <p>Tổng truy cập: xxxx</p>
+                        <p>|</p>
+                        <p>Đang online: xxx</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
 </body>
 </html>

@@ -3,7 +3,7 @@
 }
 
 <div class="container-fluid" id="slider">
-    <div id="myCarousel" class="carousel slide"data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -38,9 +38,11 @@
             <img class="img-circle" src="~/img/logo.jpg" alt="Alternate Text" />
             <div class="content-text-item">
                 <h3>Kiến trúc, nội thất & xây dựng</h3>
-                <p class="text-justify">Hơn 5 năm kinh nghiệm trong ngành kiến trúc, nội thất và xây dựng, với hàng trăm khách hàng 
-                mỗi năm, Kiến Tường luôn mang đến những sản phẩm có chất lượng cao, tiến độ giao hàng đảm bảo, 
-                giá thành hợp lý, chế độ bảo hành tốt nhất và đáp ứng những nhu cầu khác nhau của khách hàng.</p>
+                <p class="text-justify">
+                    Hơn 5 năm kinh nghiệm trong ngành kiến trúc, nội thất và xây dựng, với hàng trăm khách hàng
+                    mỗi năm, Kiến Tường luôn mang đến những sản phẩm có chất lượng cao, tiến độ giao hàng đảm bảo,
+                    giá thành hợp lý, chế độ bảo hành tốt nhất và đáp ứng những nhu cầu khác nhau của khách hàng.
+                </p>
 
             </div>
         </div>
@@ -48,7 +50,7 @@
 </div>
 <div class="container-fluid" id="product">
     <div class="row" id="row">
-        <div class="col-sm-3" id="product-item"> 
+        <div class="col-sm-3" id="product-item">
             <div class="frame">
                 <a href="#">
                     <img class="product-img" src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" />
@@ -101,7 +103,7 @@
     <ul class="" id="btn-gr">
         <li id="btn-gr-item">
             <a class="btn active" id="btn-link" href="#">Giá thiết kế</a>
-        </li >
+        </li>
         <li id="btn-gr-item">
             <a class="btn" id="btn-link" href="#">Giá xây dựng</a>
         </li>
@@ -241,4 +243,62 @@
         <p>Bất kỳ hạng mục nào bên A lược bỏ bớt để tự cung cấp, bên B sẽ tính phí nhân công lắp đặt, bao gồm vật tư (nếu có) và tính lại phần ưu đãi giá thiết kế theo suất đầu tư trên mỗi mét vuông cho bên A.</p>
     </div>
 </div>
+<div class="partner">
+    <p>ĐỐI TÁC CHÚNG TÔI</p>
+    <div class="owl-carousel owl-theme" id="my-owl">
+        <div class="item">
+            <img src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" width="190" height="100" />
+        </div>
+        <div class="item">
+            <img src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" width="190" height="100" />
+        </div>
+        <div class="item">
+            <img src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" width="190" height="100" />
+        </div>
+        <div class="item">
+            <img src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" width="190" height="100" />
+        </div>
+        <div class="item">
+            <img src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" width="190" height="100" />
+        </div>
+        <div class="item">
+            <img src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" width="190" height="100" />
+        </div>
+        <div class="item">
+            <img src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" width="190" height="100" />
+        </div>
+        <div class="item">
+            <img src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" width="190" height="100" />
+        </div>
+        <div class="item">
+            <img src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" width="190" height="100" />
+        </div>
+        <div class="item">
+            <img src="~/img/biet-thu-dep-nhat.jpg" alt="Alternate Text" width="190" height="100" />
+        </div>
+    </div>
+</div>
+<script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+</script>
+
 
