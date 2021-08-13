@@ -1,0 +1,91 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-css {
+    background-color: darkblue;
+    height: 100px;
+}
+
+#collapsibleNavbar {
+    padding: 0;
+}
+
+#container-css {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    padding: 0;
+}
+
+#link-img {
+    padding: 0;
+    height: 100%;
+    /*position: absolute;
+    left: 3%;
+    top: 18%;*/
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+}
+
+#nav-item {
+    padding: 15px;
+}
+
+#nav-link-css {
+    font-size: 18px;
+    color: powderblue;
+    font-weight: 600;
+    padding: 0px;
+    
+}
+
+#nav-link-css:focus {
+     background-color: darkblue;
+     color: yellow;
+}
+
+#nav-link-css:hover {
+     color: yellow;
+}
+
+@keyframes drop{
+    from{ opacity : 0 ;}
+    to{ opacity : 1 ;}
+}
+#dropdown-css {
+    background: darkslategray;
+    width: 600px;
+    margin-top: 26px;
+    margin-left: -220px;
+    animation: drop ease 1.5s;
+}
+
+#dropdown-li {
+    display: flex;
+}
+
+#dropdown-ul {
+    width: 50%;
+}
+
+#dropdown-ul-item {
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+#dropdown-ul-item p {
+    color: yellow;
+    font-size: 17px;
+}
+
+#dropdown-ul-item a {
+    font-size: 16px;
+    color: white;
+}
