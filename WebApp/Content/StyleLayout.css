@@ -36,7 +36,7 @@
 }
 
 #nav-item {
-    padding: 15px;
+    padding: 13px;
 }
 
 #nav-link-css {
@@ -55,7 +55,9 @@
 #nav-link-css:hover {
      color: yellow;
 }
-
+#nav-link-css:focus {
+     background-color: black; 
+}
 @keyframes drop{
     from{ opacity : 0 ;}
     to{ opacity : 1 ;}
@@ -63,7 +65,7 @@
 #dropdown-css {
     background: darkslategray;
     width: 600px;
-    margin-top: 26px;
+    margin-top: 32px;
     margin-left: -220px;
     animation: drop ease 1.5s;
 }
@@ -214,12 +216,17 @@
     background: #f2f2f2;
 }
 .btn:active, .btn.active {
-    background-color: #f2f2f2;
     -webkit-box-shadow:none;
     box-shadow: none;
 }
+div#tabb2 {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+}
 #design-price {
     background: #F0F0F0;
+    margin-top: -30px;
 }
 .detail-content{
     background-color: #fff;
